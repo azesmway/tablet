@@ -1,0 +1,45 @@
+/*
+ *  This file can be used to set variables and supply global styling.  View specific
+ *  styling should be located the view's corresponding scss file.
+ */
+$enable-font-awesome: dynamic(false);
+$toolbar-background-color: #ffffff;
+
+$base-icon-size: 32px;
+$base-icon-size-small: 24px;
+
+$base-blue-color: dynamic(material-color('blue', '500'));
+$base-green-color: dynamic(material-color('green', '500'));
+$base-yellow-color: dynamic(material-color('yellow', '500'));
+$base-grey-color: dynamic(material-color('grey', '500'));
+$base-white-color: dynamic(material-color('grey', '50'));
+$base-red-color: dynamic(material-color('red', '500'));
+
+$font-size: dynamic(14px);
+$font-size-big: dynamic(16px);
+$font-size-small: dynamic(12px);
+
+$line-height: dynamic(1.25);
+
+.x-picker-slot .x-dataview-item.x-selected {
+  color: $base-grey-color;
+  font-weight: bold;
+}
+
+.x-button .x-icon-el, .x-paneltool .x-icon-el, .x-tool .x-icon-el {
+  width: $base-icon-size !important;
+  height: $base-icon-size !important;;
+}
+
+.x-button .x-icon-el:before, .x-paneltool .x-icon-el:before, .x-tool .x-icon-el:before {
+  font-size: $base-icon-size !important;;
+}
+
+.x-form-fieldset-title {
+  padding: 8px !important;;
+}
+
+.x-paneltitle {
+  font-size: $font-size-big;
+  line-height: $line-height;
+}

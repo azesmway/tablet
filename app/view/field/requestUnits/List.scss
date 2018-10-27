@@ -1,0 +1,39 @@
+.request-units-list {
+  border-bottom: 1px solid $dataview-item-selected-background-color;
+
+  .request-units-list-item:last-child {
+    border-bottom: none;
+  }
+  .request-units-list-item {
+    border-bottom: 1px solid $dataview-item-selected-background-color;
+    padding: 8px;
+
+    .x-listitem-tool-dock {
+      padding: 0;
+    }
+
+    .x-listitem-inner-el {
+      padding: 0;
+    }
+
+    p {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .name {
+    font-size: $font-size;
+    color: $color;
+  }
+
+  .quantity {
+    font-size: $font-size-small;
+    color: $highlight-color;
+  }
+
+  .comment {
+    font-size: $font-size-small;
+    color: $base-grey-color;
+  }
+}

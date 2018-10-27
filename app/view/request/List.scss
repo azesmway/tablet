@@ -1,0 +1,84 @@
+.request-list {
+  .request-list-item {
+    border-bottom: 1px solid $dataview-item-selected-background-color;
+
+    .x-innerhtml {
+      width: 100%;
+    }
+    .title {
+      font-size: 16px;
+      text-align: left;
+      color: $color;
+      padding-right: 50px;
+    }
+    .date {
+      font-size: 12px;
+      color: $highlight-color;
+      position: absolute;
+      right: 14px;
+      top: 14px;
+    }
+    .status {
+      font-size: 14px;
+      text-align: left;
+      color: $highlight-color;
+      margin-top: 10px;
+
+      .reject {
+        color: $base-red-color;
+      }
+
+      .item-circle {
+        display: inline-block;
+        border-radius: 100%;
+        width: $base-icon-size-small * 0.5;
+        height: $base-icon-size-small * 0.5;
+        background-color: $base-color;
+        margin-right: 2px;
+      }
+      .item-circle.value_0 {
+        background-color: $base-blue-color;
+      }
+      .item-circle.value_1 {
+        background-color: $base-green-color;
+      }
+      .item-circle.value_2 {
+        background-color: $base-yellow-color;
+      }
+      .item-circle.value_3 {
+        background-color: $base-grey-color;
+      }
+    }
+  }
+
+  .request-list-item.x-sticky {
+    .x-side-right {
+      .x-listswiperstepper-text {
+        text-align: right !important;
+      }
+    }
+  }
+}
+
+.request-list-menu {
+  .x-actionsheet-body-el .x-button {
+    border-bottom: 1px solid $divider-color;
+
+    .x-body-el {
+      margin: 0;
+    }
+  }
+  .x-actionsheet-body-el .x-button.back-button {
+    .x-body-el {
+      margin: auto;
+      color: $highlight-color;
+    }
+    .x-icon-el {
+      color: $highlight-color;
+    }
+  }
+
+  .x-actionsheet-body-el .x-button:last-child {
+    border-bottom: none;
+  }
+}

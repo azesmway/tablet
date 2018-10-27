@@ -1,0 +1,47 @@
+.x-request-history-info {
+  border-bottom: 1px solid $divider-color;
+
+  p {
+    padding: 3px 0;
+    margin: 0;
+
+    .x-icon-el {
+      width: $base-icon-size-small;
+      height: $base-icon-size-small;
+      color: $base-grey-color;
+      margin-right: 6px;
+    }
+    .x-icon-el:before {
+      font-size: $base-icon-size-small;
+    }
+  }
+  .username {
+    font-size: $font-size;
+    line-height: $base-icon-size-small;
+    color: $color;
+  }
+  .status {
+    font-size: $font-size;
+    line-height: 16px;
+    color: $base-grey-color;
+    padding-left: 30px;
+    position: relative;
+
+    span {
+      margin-left: 4px;
+      margin-right: 12px;
+      position: absolute;
+      left: 0;
+      top: 4px;
+    }
+
+    .reject {
+      color: $base-red-color;
+    }
+  }
+  .days {
+    font-size: $font-size-small;
+    line-height: $base-icon-size-small;
+    color: $base-grey-color;
+  }
+}

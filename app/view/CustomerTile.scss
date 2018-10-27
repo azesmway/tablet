@@ -1,0 +1,25 @@
+.x-customer-tile {
+  text-align: left;
+  padding: 5px 0 20px 0;
+
+  .x-customer-tile-logo {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .x-customer-tile-name {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    color: $color;
+    margin-left: 5px;
+  }
+
+  .x-customer-tile-contragentName {
+    font-size: 14px;
+    font-weight: 400;
+    color: $highlight-color;
+    margin-left: 5px;
+  }
+}

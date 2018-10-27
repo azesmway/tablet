@@ -1,0 +1,28 @@
+.x-fixed-toolbar.x-toolbar {
+  position: fixed;
+  overflow: hidden;
+  bottom: 20px;
+  right: 20px !important;
+  width: 50px !important;
+  height: 50px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  .x-toolbar-body-el {
+    padding: 0 !important;
+    min-height: inherit !important;
+  }
+
+  .x-fixed-toolbar-button {
+    background-color: $base-blue-color !important;
+
+    .x-icon-el {
+      width: $base-icon-size;
+      height: $base-icon-size;
+    }
+    .x-icon-el:before {
+      font-size: $base-icon-size !important;
+    }
+  }
+}
